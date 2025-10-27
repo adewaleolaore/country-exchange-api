@@ -5,7 +5,6 @@ const ctrl = require('../controllers/countriesController');
 router.post('/refresh', ctrl.refresh);
 router.get('/', ctrl.list);
 router.get('/image', ctrl.getImage);
-router.get('/status', ctrl.status);
 router.get('/:name', ctrl.getOne);
 router.delete('/:name', ctrl.delete);
 
